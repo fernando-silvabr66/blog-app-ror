@@ -1,29 +1,18 @@
-<h1>User#Name placeholder</h1>
-<p>Here is the details of a user given its id</p>
-<ul class="users">
-  <li class="user">
-    <div class="user_photo">Photo placeholder</div>
-    <div class="user_container">
-      <div class="user_name">Name placeholder</div>
-      <div class="user_posts_counter">Number of Posts: posts_counter placeholder</div>
-    </div>
-  </li>
-</ul>
+<h1>User <%= @user.name %></h1>
+<p>Here are the details of a user given its id</p>
+<%= link_to '< Back to users', users_path %>
+<%= render @user %>
 
-<div class="user_bio">
+<div class="user__bio">
   <h2>Bio</h2>
-  <p>Bio placeholder</p>
+  <p><%= @user.bio %></p>
 </div>
 
-<ul class="posts">
-  <li class="post">
-    <div class="post_container">
-      <div class="post_title">Title placeholder</div>
-      <div class="post_text">Text placeholder</div>
-      <div class="post_comments_counter">Number of Comments: comments_counter placeholder</div>
-      <div class="post_likes_counter">Number of Likes: likes_counter placeholder</div>
-    </div>
-  </li>
-</ul>
-
-<button type="button">See all posts</button>
+<% if @user.posts.empty? %>
+  <h2>No posts created</h2>
+<% else %>
+  <% @user.last_three_posts.each do |post| %>
+    <%= render post %>
+  <% end %>
+  <%= link_to 'See all posts', user_posts_path(@user.id) %>
+<% end %>
