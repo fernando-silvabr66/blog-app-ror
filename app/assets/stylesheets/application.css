@@ -13,9 +13,8 @@
  *= require_self
  */
 
- @import './partials/variables';
- @import './partials/typographies';
- @import './partials/reset';
- @import './partials/posts';
- @import './partials/users';
- 
+@import './partials/variables';
+@import './partials/typographies';
+@import './partials/reset';
+@import './partials/posts';
+@import './partials/users';
