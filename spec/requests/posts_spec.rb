@@ -16,7 +16,7 @@ RSpec.describe 'Posts', type: :request do
     it 'renders the correct template' do
       expect(response).to render_template(:index)
     end
-    
+
     it 'includes the correct placeholder text in its body' do
       expect(response.body).to include('<h1>Posts</h1>')
     end
