@@ -36,7 +36,12 @@ To get a local copy follow these simple example steps.
 
 - GitHub: [@fernando-silvabr66](https://github.com/fernando-silvabr66)
 - Twitter: [@fsilvabr1](https://twitter.com/fsilvabr1)
-- LinkedIn: [https://linkedin.com/in/fernando-silvabr66](https://linkedin.com/in/fernando-silvabr66)   
+- LinkedIn: [https://linkedin.com/in/fernando-silvabr66](https://linkedin.com/in/fernando-silvabr66)
+
+👤 **Vitor Guedes Madeira**
+- GitHub: [@vitorguedesmadeira](https://github.com/VitorGuedesMadeira)
+- Twitter: [@CDahguedes](https://twitter.com/CDahguedes)
+- LinkedIn: [Vitor Guedes](https://www.linkedin.com/in/vitor-guedes-madeira/)
 
 ## 🤝 Contributing
 
