@@ -41,7 +41,7 @@ To get a local copy follow these simple example steps.
 👤 **Vitor Guedes Madeira**
 - GitHub: [@vitorguedesmadeira](https://github.com/VitorGuedesMadeira)
 - Twitter: [@CDahguedes](https://twitter.com/CDahguedes)
-- LinkedIn: [Vitor Guedes](https://www.linkedin.com/in/vitor-guedes-madeira/)
+- LinkedIn: [Vitor Guedes](https://www.linkedin.com/in/vitor-guedes-madeira/) 
 
 ## 🤝 Contributing
 
